@@ -1,0 +1,19 @@
+a {
+  color: #0000ee;
+}
+
+img {
+  width: 500px;
+}
+
+.thumbnail {
+  border: thin solid black;
+  display: inline-block;
+  margin: 25px;
+  text-align: center;
+}
+
+.thumbnail img {
+  width: 200px;
+  margin: 25px;
+}
