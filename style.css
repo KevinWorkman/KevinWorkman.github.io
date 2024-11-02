@@ -11,11 +11,25 @@
   font-size: 24px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: auto auto;
+.thumbnail-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.grid img{
-  width: 100%;
+.thumbnail {
+  width: 200px;
+  border: thin solid black;
+  text-align: center;
+  font-size: 24px;
+}
+
+.thumbnail img {
+  width: 200px;
+}
+
+.screenshot {
+  max-width: 50%;
+  border: 5px solid black;
 }
